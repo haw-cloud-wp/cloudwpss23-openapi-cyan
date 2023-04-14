@@ -1,8 +1,8 @@
 {
   "name": "cloudwpss23_openapi_cyan",
-  "version": "1.0",
+  "version": "1.0.4",
   "description": "OpenAPI Reference für das CloudWP der HAW Hamburg für das SommerSemster 2023",
-  "license": "Unlicense",
+  "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
@@ -37,12 +37,23 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/register": "^7.0.0",
     "expect.js": "^0.3.1",
-    "mocha": "^8.0.1",
+    "mocha": "^10.2.0",
     "sinon": "^7.2.0"
   },
   "files": [
     "dist"
   ],
   "author": "Anton Scharnowski",
-  "repository": "https://github.com/haw-cloud-wp/cloudwpss23-openapi-cyan.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haw-cloud-wp/cloudwpss23-openapi-cyan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haw-cloud-wp/cloudwpss23-openapi-cyan/issues"
+  },
+  "homepage": "https://github.com/haw-cloud-wp/cloudwpss23-openapi-cyan#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
 }
